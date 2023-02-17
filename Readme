@@ -1,7 +1,2 @@
-echo "# Fairness" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Mingqian-Li/Fairness.git
-git push -u origin main
+Fairness test based on different regression models.
+Linear regression, group lasso and sparse group lasso
