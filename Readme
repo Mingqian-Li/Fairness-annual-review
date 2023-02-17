@@ -2,3 +2,5 @@ Fairness test based on different regression models, linear regression, group las
 Most recent results are in Group regression.ipynb.
 All the regularization terms are set to 0.1 which is not optimium for now. 
 For some datasets, when doing sparse group lasso, seems L21 regularization term is too small, so the elementwize l1 term is dominating. L21 needs larger weight.
+Models are based on paper https://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf. Need to pay attention to several conditions. This dirty model may not be able
+to work for some circumstances, such as insufficient sample numbers or oversize features.
