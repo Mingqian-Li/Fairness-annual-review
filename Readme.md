@@ -8,3 +8,4 @@
 (1).Linear regression with mse loss maynot be good for classification problems. But since group lasso is based on linear MSE, for convenience and fair comparison, all models are trained based on Linear MSE. Logsitics model would be better, need to check how the dirty model works with logistics model. Also if the loss is changed to cross entropy, how to optimize the model parameters.
 (2).Tunning regularized terms for different dataset.
 (3).Multiple classes.
+![Comparison](https://user-images.githubusercontent.com/70342781/219811321-9e14f266-7685-4eea-94ae-7a9a73396e04.png)
