@@ -1,2 +1,4 @@
-Fairness test based on different regression models.
-Linear regression, group lasso and sparse group lasso
+Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
+Most recent results are in Group regression.ipynb.
+All the regularization terms are set to 0.1 which is not optimium for now. 
+For some datasets, when doing sparse group lasso, seems L21 regularization term is too small, so the elementwize l1 term is dominating. L21 needs larger weight.
