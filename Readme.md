@@ -17,4 +17,8 @@
 (2).Tunning regularized terms for different dataset.
 
 (3).Multiple classes.
+
+3. Comparison
+
 ![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
+
