@@ -1,4 +1,5 @@
 1. Status
+
 (1).Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
 (2).Most recent results are in Group regression.ipynb.
 (3).All the regularization terms are set to 0.1 for all dataset, which is not optimium for now. 
