@@ -20,5 +20,7 @@
 
 3. Comparison
 
+Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. 
+
 ![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
 
