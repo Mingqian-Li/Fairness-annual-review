@@ -12,11 +12,11 @@
 
 2. To-do
 
-(1).Linear regression with mse loss maynot be good for classification problems. But since group lasso is based on linear MSE, for convenience and fair comparison, all models are trained based on Linear MSE. Logsitics model would be better, need to check how the dirty model works with logistics model. Also if the loss is changed to cross entropy, how to optimize the model parameters.
+(1).Linear regression with mse loss maynot be good for classification problems. But since group lasso is based on linear MSE, for convenience and fair comparison, all models are trained based on Linear MSE. Logsitics model would be better, need to check how the dirty model works with logistics model. Also if the loss is changed to cross entropy, how to optimize the model parameters(done).
 
 (2).Tunning regularized terms for different dataset.
 
-(3).Multiple classes.
+(3).Multiple classes(done).
 
 3. Comparison
 
@@ -33,4 +33,6 @@ The given features are GRS, family background and AB test results. We train a co
 The precondition is that we consider there is no fairness issue on GRS. GRS is just a given value for each individual. 
 
 After we train the cox model based on all data points, we have identified the unfairness for difference races. Race 2 testing result has similar performance comparing is the best, since Race 2 is the majority. The rest races were all put into the minority group, because many small races don't have enough data to compute a ROC curve. The accuracy is much worse for a 3 years diabetes prediction. Performance for prediction in 8 years is more stable.
-![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
+![image](![image](https://github.com/Mingqian-Li/Fairness/assets/70342781/3c7448b4-b41f-47dd-96ee-277f8c4873aa))
+![image](![image](https://github.com/Mingqian-Li/Fairness/assets/70342781/531e08e3-2ce6-41fc-a8c1-fc9e4a0086a5)
+)
