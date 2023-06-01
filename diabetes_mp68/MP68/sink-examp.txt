@@ -1,0 +1,104 @@
+[1] 183
+Start:  AIC=5170.67
+Surv(time, t1d) ~ 1
+
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+[1] 1
+[1] 3
+[1] 5
+10: readChar(con, 5L, useBytes = TRUE)
+9: load(file = paste0(pathSaveModels, names_tAUC, ".RData")) at results_T_AUC_CV.R#45
+8: eval(ei, envir)
+7: eval(ei, envir)
+6: withVisible(eval(ei, envir))
+5: source(paste0(codePath, "t_AUC - GRS2/results_T_AUC_CV.R")) at fig_ROC_AUC.R#9
+4: eval(ei, envir)
+3: eval(ei, envir)
+2: withVisible(eval(ei, envir))
+1: source(paste0(codePath, "fig_ROC_AUC.R"))
+16: stop("need at least two non-NA values to interpolate")
+15: approx(FP, TP, xout = seq(0, 1, 0.01), method = "linear")
+14: eval(substitute(expr), data, enclos = parent.frame())
+13: eval(substitute(expr), data, enclos = parent.frame())
+12: with.default(dat, approx(FP, TP, xout = seq(0, 1, 0.01), method = "linear"))
+11: with(dat, approx(FP, TP, xout = seq(0, 1, 0.01), method = "linear")) at tAUC_ml_v_CV.R#47
+10: data.frame(with(dat, approx(FP, TP, xout = seq(0, 1, 0.01), method = "linear")), 
+        method = "spline()") at tAUC_ml_v_CV.R#47
+9: tAUC_ml_v_CV(complexity1, dataset_ml, dataset_ml, day, day + 
+       day_endv, variable_of_interest = "t1d") at RoC_save_different_models_CV.R#25
+8: eval(ei, envir)
+7: eval(ei, envir)
+6: withVisible(eval(ei, envir))
+5: source(paste0(codePath, "t_AUC - GRS2/article_figures/RoC_save_different_models_CV.R")) at fig_ROC_AUC.R#13
+4: eval(ei, envir)
+3: eval(ei, envir)
+2: withVisible(eval(ei, envir))
+1: source(paste0(codePath, "fig_ROC_AUC.R"))
