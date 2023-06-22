@@ -51,8 +51,8 @@ Local mutar allows us to train multi-task logistic regression model with L1 regu
 
 # Performance
 
-## Other testing data set
-Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. The detail results can be found in ./experiments/Group regression.ipynb
+## Other testing datasets
+Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. The detail results can be found in ~./experiments/Group regression.ipynb.
 
 ![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
 
