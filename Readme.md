@@ -16,9 +16,8 @@ Project is created with:
 To run this project, install it locally using mutar:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd ../experiments
+$ pip install -U mutar
 ```
 
 
