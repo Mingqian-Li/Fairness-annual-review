@@ -2,7 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-
+* [Status](#status)
 ## General info
 This project mainly focus on fairness improvement.
 	
@@ -22,7 +22,7 @@ $ pip install -U mutar
 
 
 
-1. Status
+## Status
 
 (1).Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
 
