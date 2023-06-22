@@ -1,3 +1,28 @@
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project mainly focus on fairness improvement.
+	
+## Technologies
+Project is created with:
+* scipy version: 1.7.3
+* sklearn
+* Python 3.7.1
+	
+## Setup
+To run this project, install it locally using mutar:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+
+
+
 1. Status
 
 (1).Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
