@@ -46,7 +46,7 @@ Local mutar allows us to train multi-task logistic regression model with L1 regu
 * We plan to use a generative model to solve the data bias issue. Some simple test has been done on the toy examples.
 
 * Bi-level optimization.
-* Application on diabete dataset.
+* Application on diabete dataset. Either develop Mutar on R, or finish the cox model training on python.
 
 # Performance
 
