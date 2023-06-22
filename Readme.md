@@ -20,13 +20,14 @@ $ cd ../experiments
 $ pip install -U mutar
 ```
 This two steps will install mutar, but this version doesn't provides logistic regression method.
+
 Download the local mutar. Replace all content in the installed mutar directory with the local mutar.
 Local mutar allows us to train multi-task logistic regression model with L1 regularization/Group regularization/Sparse Group regularization. 
 
 
 ## Status
 
-(1).Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
+* Fairness test based on different regression models, linear regression, group lasso and sparse group lasso.
 
 (2).Most recent results are in Group regression.ipynb.
 
