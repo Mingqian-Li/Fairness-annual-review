@@ -59,6 +59,7 @@ The given features are GRS, family background and AB test results. We train a co
 The precondition is that we consider there is no fairness issue on GRS. GRS is just a given value for each individual. 
 
 After we train the cox model based on all data points, we have identified the unfairness for difference races. Race 2 testing performance is the best, since Race 2 is the majority. The rest races were all put into the minority group, because many small races don't have enough data to compute a ROC curve. The accuracy is much worse for a 3 years diabetes prediction. Performance for prediction in 8 years is more stable.
-![image](https://github.com/Mingqian-Li/Fairness/assets/70342781/9300a3e8-6f8a-465b-96e6-6d5b16b3072c)
-![image](https://github.com/Mingqian-Li/Fairness/assets/70342781/531e08e3-2ce6-41fc-a8c1-fc9e4a0086a5)
+![CRS_minority](https://github.com/Mingqian-Li/Fairness-annual-review/assets/70342781/4d662194-d346-4c40-a05c-b9ef7d4dd2fe)
+![CRS_majority](https://github.com/Mingqian-Li/Fairness-annual-review/assets/70342781/b24462b0-dd3e-4796-80bc-679314de2cff)
+
 
