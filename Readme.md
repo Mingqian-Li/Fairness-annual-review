@@ -39,6 +39,7 @@ Local mutar allows us to train multi-task logistic regression model with L1 regu
 * For some datasets, normalization has improved the accuracy performance.
 
 * Models are based on paper https://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf. Need to pay attention to several conditions. This dirty model may not be able to work under some circumstances, such as insufficient sample numbers or oversize feature numbers.
+* Unfairness issue has been identified on CSR based on MP68 dataset.
 
 # Future
 
