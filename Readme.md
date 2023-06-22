@@ -3,7 +3,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)
-* [To do](#todo)
+* [Future](#future)
 ## General info
 This project mainly focus on fairness improvement.
 	
@@ -39,9 +39,9 @@ Local mutar allows us to train multi-task logistic regression model with L1 regu
 
 * Models are based on paper https://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf. Need to pay attention to several conditions. This dirty model may not be able to work under some circumstances, such as insufficient sample numbers or oversize features.
 
-## To do
+## Future
 
-* Like the result shows
+* The result shows, Lasso, Group Lasso, Sparse Group Lasso have better accuracy. Appropriate regularization parameter tuning is required otherwise there is a risk that these models may collapse and provide fair but low prediction accuracy.
 
 (2).Tunning regularized terms for different dataset.
 
