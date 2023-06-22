@@ -4,6 +4,7 @@
 * [Setup](#setup)
 * [Status](#status)
 * [Future](#future)
+* [Performance](#performance)
 ## General info
 This project mainly focus on fairness improvement.
 	
