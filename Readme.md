@@ -12,6 +12,7 @@ Project is created with:
 * scipy version: 1.7.3
 * sklearn
 * Python 3.7.1
+* mutar 0.0.1 
 	
 ## Setup
 To run this project, install it locally using mutar:
