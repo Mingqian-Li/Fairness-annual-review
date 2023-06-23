@@ -6,7 +6,7 @@
 * [Future](#future)
 * [Performance](#performance)
 ## General info
-This project mainly focus on fairness improvement.
+This project mainly focuses on building multi-task learning framework for developing Genetic Risk Score (GRS) Models of T1D.
 	
 ## Technologies
 Project is created with:
@@ -22,10 +22,9 @@ To run this project, install it locally using mutar:
 $ cd ../experiments
 $ pip install -U mutar
 ```
-This two steps will install mutar, but this version doesn't provides logistic regression method.
+The original mutar package is from https://github.com/hichamjanati/mutar. We modified the package and added extra logistic regression model to make it has better performance on classification problem.
 
-Download the local mutar. Replace all content in the installed mutar directory with the local mutar.
-Local mutar allows us to train multi-task logistic regression model with L1 regularization/Group regularization/Sparse Group regularization. 
+The modified mutar allows us to train multi-task logistic regression model with L1 regularization/Group regularization/Sparse Group regularization. 
 
 
 ## Status
