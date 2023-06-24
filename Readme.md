@@ -2,11 +2,9 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Status](#status)
-* [Future](#future)
 * [Performance](#performance)
 ## General info
-This project mainly focuses on building multi-task learning framework for developing Genetic Risk Score (GRS) Models of T1D.
+This project mainly focuses on building multi-task learning framework for developing Genetic Risk Score (GRS) Models of T1D. Given necessary features, ones can identify the fairness difference and use different regularization methods to alleviate the unfaireness.
 	
 ## Technologies
 Project is created with:
@@ -26,12 +24,11 @@ The original mutar package is from https://github.com/hichamjanati/mutar. We mod
 
 The modified mutar allows us to train multi-task logistic regression model with L1 regularization/Group regularization/Sparse Group regularization. 
 
-
-## Status
-
+# Performance
+For the current version, we have developed multi-task logistic regression model and tested them on survey dataset refer to https://doi.org/10.1002/widm.1452. The loading model code work is based on https://github.com/tailequy/fairness_dataset. If ones want to directly use orginal setting, please check if features are correctly selected.
+## Survey datasets
 * Fairness performance has been tested based on logistic regression models with different regularization, L1, Group and Sparse Group.
-
-* Most recent results are in Group regression.ipynb.
+* Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. The detail results can be found in ~./experiments/Group regression.ipynb.
 
 * All the regularization terms are set to 0.1 for all dataset, which is not optimium for now. 
 
@@ -39,20 +36,6 @@ The modified mutar allows us to train multi-task logistic regression model with 
 
 * Models are based on paper https://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf. Need to pay attention to several conditions. This dirty model may not be able to work under some circumstances, such as insufficient sample numbers or oversize feature numbers.
 * Unfairness issue has been identified on CSR based on MP68 dataset.
-
-# Future
-
-* The result shows, Lasso, Group Lasso, Sparse Group Lasso have better performance on accuracy. Appropriate regularization parameter tuning is required otherwise there is a risk that these models may collapse and provide fair but low prediction accuracy.
-
-* We plan to use a generative model to solve the data bias issue. Some simple test has been done on the toy examples.
-
-* Bi-level optimization.
-* Application on diabete dataset. Either develop Mutar on R, or finish the cox model training on python.
-
-# Performance
-
-## Other testing datasets
-Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. The detail results can be found in ~./experiments/Group regression.ipynb.
 
 ![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
 
