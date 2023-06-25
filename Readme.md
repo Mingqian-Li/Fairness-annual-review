@@ -25,7 +25,7 @@ The original mutar package is from https://github.com/hichamjanati/mutar. We mod
 The modified mutar allows us to train multi-task logistic regression model with L1 regularization/Group regularization/Sparse Group regularization. 
 
 # Performance
-For the current version, we have developed multi-task logistic regression model and tested them on survey dataset refer to https://doi.org/10.1002/widm.1452. The loading model code work is based on https://github.com/tailequy/fairness_dataset. If ones want to directly use orginal setting, please check if features are correctly selected.
+For the current version, we have developed multi-task logistic regression model and tested them on survey dataset refer to https://doi.org/10.1002/widm.1452. The loading model baseline is based on https://github.com/tailequy/fairness_dataset. If ones want to directly use orginal setting, please check if features are correctly selected.
 ## Survey datasets
 * Fairness performance has been tested based on logistic regression models with different regularization, L1, Group and Sparse Group.
 * Red means the fairness performance is better, but result may not be reliable because of small training dataset sample numbers. Yellow means the fairness performance is better, also reliable. The detail results can be found in ~./experiments/Group regression.ipynb.
