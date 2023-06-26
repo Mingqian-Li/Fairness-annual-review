@@ -35,7 +35,7 @@ For the current version, we have developed multi-task logistic regression model 
 * For some datasets, normalization has improved the accuracy performance.
 
 * Models are based on paper https://www.cs.utexas.edu/~pradeepr/paperz/mtdm_nips.pdf. Need to pay attention to several conditions. This dirty model may not be able to work under some circumstances, such as insufficient sample numbers or oversize feature numbers.
-* Unfairness issue has been identified on CSR based on MP68 dataset.
+* Unfairness issue has been identified on CSR based on TEDDY MP68 dataset.
 
 ![image](https://user-images.githubusercontent.com/70342781/219811476-9052d519-c557-4eb2-b34a-628620ea7af7.png)
 
